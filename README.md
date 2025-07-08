@@ -6,4 +6,3 @@ I have used GSAP, ScrollTrigger and Locomotive in this project
 <br>
 Hello
 Author: Piyush Rawat
-Hello
