@@ -71,7 +71,7 @@ gsap.from('.card', {
     trigger: ".cards",
     scroller: "[data-scroll-container]", // <-- Add this line!
     // markers: true,
-    start: "top 80%",
+    start: "top 70%",
     end: "top 30%",
     scrub: 3,
     toggleActions: 'play none none reset'
@@ -80,7 +80,7 @@ gsap.from('.card', {
 
 gsap.from('.contact', {
   opacity: 0,
-  x: 400,
+  x: 200,
   ease: "easein",
   scrollTrigger: {
     trigger: ".contact",
@@ -89,7 +89,6 @@ gsap.from('.contact', {
     start: "top 90%",
     end: "top 40%",
     scrub: 3,
-    toggleActions: 'play none none reset'
   }
 });
 
@@ -109,6 +108,11 @@ function toggleNavbar(collapseID) {
     overlay.classList.add('hidden');
   };
 }
+
+const words = ["Power", "Energy", "Strength"];
+let wordIndex = 0;
+let charIndex = 0;
+let isDeleting = false;
 const typingElement = document.getElementById("typing-effect");
 const typingSpeed = 120;
 const erasingSpeed = 60;

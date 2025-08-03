@@ -1,8 +1,14 @@
 # gym-site
-<br>
-So Hello coders it's my first website on GYM.
-<br>
-I have used GSAP, ScrollTrigger and Locomotive in this project
-<br>
-Hello
-Author: Piyush Rawat
+
+Hello Coders...
+This is a simple web site for Rawat's Gym. It's a Responsive web site.
+I have used the following technologies in this project.
+- HTML
+- CSS
+- JavaScript
+- Tailwind CSS
+- Locomotive Scroll
+- GSAP
+- Scroll Trigger
+
+Author: @Piyush_Rawat
