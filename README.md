@@ -1,6 +1,6 @@
 # gym-site
 
-Hello Coders...
+Hello World...
 This is a simple web site for Rawat's Gym. It's a Responsive web site.
 I have used the following technologies in this project.
 - HTML
